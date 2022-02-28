@@ -1,0 +1,49 @@
+
+
+.facts{
+    display: flex; 
+    flex-wrap: wrap;
+}
+.fact-one{
+    display: flex;
+    padding: 20px;
+    .fact-one-info{
+        display: flex;
+        flex-wrap: wrap;
+         justify-content: center;
+    }
+}
+
+.fact-two{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+        .fact-two-info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+     }
+}
+
+.fact-three{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.panchoPic{
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 100px;
+    padding-top: 30px;
+ }
+ .panchoPic-right{
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 100px;
+    margin-left: 20px;
+ }

@@ -1,0 +1,23 @@
+body{
+  margin: 0;
+}
+
+.header-pancho{
+  display: flex;
+  justify-items: center;
+  justify-content: space-around;
+  background-color: $nav-bar;
+  
+}
+.logo-container{
+  width: 100px;
+  height: 100px;}
+  
+  
+  .sausageDog {
+      width: 80px;
+      margin-left: 10px;
+      margin-top: 10px;
+      height: 80px;
+      border-bottom-right-radius: 10px;
+      border-top-left-radius: 10px;}

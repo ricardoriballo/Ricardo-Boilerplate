@@ -1,0 +1,30 @@
+
+
+.navigator {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+   color: $main; 
+   background-color:$nav-bar;
+   
+   &__list{
+       display: flex;
+       align-items: center;
+       
+
+      
+    
+    &__item{
+        margin: 5px;
+        padding: 20px;
+        border-radius:  30px;
+        
+        background-color: $background-black;
+        min-width: 88.88px;
+
+
+    }
+   }
+}
+

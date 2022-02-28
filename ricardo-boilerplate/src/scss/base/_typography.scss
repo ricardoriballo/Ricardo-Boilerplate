@@ -1,0 +1,44 @@
+// Typography
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@import "./variables";
+
+@import "./mixins";
+
+
+
+h1,
+h2,
+p,
+li,
+{
+  font-family: Righteous;
+  font-weight: bold;
+  ;
+}
+
+h1 {
+  font-size: $title;
+  color: $main;
+  padding: 10px;
+  @include desktop {
+    font-size: $title-desktop;
+    color: $main;}
+  }
+  h2 {
+    font-size: $subtitle;
+    color: $main;
+    padding: 10px;
+    @include desktop {
+      font-size: $subtitle-desktop;
+      color: $main;
+    }
+  }
+  p {
+    font-size: $paragraph;
+    color: $secondary;
+    @include desktop {
+      font-size: $paragraph-desktop;
+      color: $secondary;
+    }
+  }
